@@ -14,7 +14,7 @@ export default function Inicio() {
       </p>
 
       <article className="text-center">
-        <img src="/src/assets/umg.png" alt="logo umg" className="img-fluid" />
+        <img src="/img/umg.png" alt="logo umg" className="img-fluid" />
       </article>
 
       {/* Ventanas Modales */}

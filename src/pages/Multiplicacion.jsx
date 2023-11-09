@@ -25,7 +25,7 @@ export default function Multiplicacion() {
 
         <article className="text-center">
           <img
-            src="/src/assets/multiplicacion-enteros.png"
+            src="/img/multiplicacion-enteros.png"
             alt="multiplicación de decimales con números enteros"
             className="img-fluid w-50"
           />
@@ -46,7 +46,7 @@ export default function Multiplicacion() {
 
         <article className="text-center">
           <img
-            src="/src/assets/multiplicacion-decimales.png"
+            src="/img/multiplicacion-decimales.png"
             alt="multiplicación de decimales con números decimales"
             className="img-fluid w-50"
           />

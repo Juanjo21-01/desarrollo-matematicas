@@ -26,7 +26,7 @@ export default function Tablas() {
 
         <article className="text-center">
           <img
-            src="/src/assets/tablas-multiplicar-1-6.jpg"
+            src="/img/tablas-multiplicar-1-6.jpg"
             alt="tablas de multiplicar"
             className="img-fluid w-75"
           />
@@ -47,7 +47,7 @@ export default function Tablas() {
 
         <article className="text-center">
           <img
-            src="/src/assets/tablas-multiplicar-7-12.jpg"
+            src="/img/tablas-multiplicar-7-12.jpg"
             alt="tablas de multiplicar"
             className="img-fluid w-75"
           />
