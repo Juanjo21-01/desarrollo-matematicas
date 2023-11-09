@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { NavLink } from 'react-router-dom';
 
 const Modal = ({ children, nameModal }) => {
   return (
@@ -31,10 +32,12 @@ const Modal = ({ children, nameModal }) => {
           <div className="modal-footer justify-content-center">
             <button
               type="button"
-              className="btn btn-primary btn-lg"
+              className="btn btn-primary"
               data-bs-dismiss="modal"
             >
-              !Vamos!
+              <NavLink className="nav-link" to={`/${nameModal}`}>
+                ¡¡Vamos!!
+              </NavLink>
             </button>
           </div>
         </div>

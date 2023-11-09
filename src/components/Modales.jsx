@@ -4,7 +4,7 @@ const Modales = () => {
   // variables para activar el modal
   const nameModal = 'tablas';
   const nameModal2 = 'sumas';
-  const nameModal3 = 'multiplicaciones';
+  const nameModal3 = 'multiplicacion';
 
   return (
     <article className="row my-5 ">

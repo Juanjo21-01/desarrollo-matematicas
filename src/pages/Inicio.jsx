@@ -3,7 +3,7 @@ import Modales from '../components/Modales';
 export default function Inicio() {
   return (
     <>
-      <h1 className="text-primary fs-1 text-center pt-2">
+      <h1 className="text-danger fs-1 text-center py-4">
         Matemáticas para nivel Primario y Preprimario
       </h1>
 

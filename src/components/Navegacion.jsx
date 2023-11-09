@@ -1,10 +1,14 @@
+import { NavLink } from 'react-router-dom';
+
 const Navegacion = () => {
+  console.log('Navegacion');
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-gradient bg-secondary">
+    <nav className="navbar navbar-expand-md navbar-dark bg-gradient bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Inicio
-        </a>
+        <NavLink className="navbar-brand" to="/">
+          Matemáticas
+        </NavLink>
+
         <button
           className="navbar-toggler collapsed"
           type="button"
@@ -20,19 +24,34 @@ const Navegacion = () => {
         <div className="navbar-collapse collapse justify-content-end" id="menu">
           <ul className="navbar-nav  mb-2 mb-md-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active text-danger fw-bold' : 'nav-link'
+                }
+                to="/tablas"
+              >
                 Tablas de Multiplicar
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Suma de Quebrados
-              </a>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active text-danger fw-bold' : 'nav-link'
+                }
+                to="/sumas"
+              >
+                Sumas de Quebrados
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active text-danger fw-bold' : 'nav-link'
+                }
+                to="/multiplicacion"
+              >
                 Multiplicación de Decimales
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
