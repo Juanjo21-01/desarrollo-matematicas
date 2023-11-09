@@ -25,7 +25,7 @@ export default function Sumas() {
 
         <article className="text-center">
           <img
-            src="/img/suma-mismo-denominador.jpg"
+            src="/desarrollo-matematicas/img/suma-mismo-denominador.jpg"
             alt="suma de quebrados con mismo denominador"
             className="img-fluid w-50"
           />
@@ -48,7 +48,7 @@ export default function Sumas() {
 
         <article className="text-center">
           <img
-            src="/img/suma-diferente-denominador.jpg"
+            src="/desarrollo-matematicas/img/suma-diferente-denominador.jpg"
             alt="suma de quebrados con distinto denominador"
             className="img-fluid w-50"
           />

@@ -23,7 +23,7 @@ const Modales = () => {
           <h3 className="text-success">Tablas de Multiplicar</h3>
           <p>Aprende las tablas de multiplicar del 1 al 10!!!</p>
           <img
-            src="/img/tablas.jpg"
+            src="/desarrollo-matematicas/img/tablas.jpg"
             alt="tablas de multiplicar"
             className="img-fluid w-75"
           />
@@ -43,7 +43,7 @@ const Modales = () => {
           <h3 className="text-success">Suma de Quebrados</h3>
           <p>¿Ya sabes sumar con fracciones? Sino, aquí puedes aprender!!</p>
           <img
-            src="/img/sumas.webp"
+            src="/desarrollo-matematicas/img/sumas.webp"
             alt="sumas de quebrados"
             className="img-fluid w-75"
           />
@@ -63,7 +63,7 @@ const Modales = () => {
           <h3 className="text-success">Multiplicación de Decimales</h3>
           <p>Es muy fácil multiplicar con decimales, aprende ya!!</p>
           <img
-            src="/img/multiplicacion.png"
+            src="/desarrollo-matematicas/img/multiplicacion.png"
             alt="multiplicaciones de decimales"
             className="img-fluid w-75"
           />
