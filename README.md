@@ -2,6 +2,8 @@
 
 Página web para el aprendizaje de niños que se encuentran en preprimaria y primaria. Desarrollada con React y Bootstrap y utilizando vite como empaquetador.
 
+El sitio se encuentra desplegado en GitHub Pages. [Click aquí](https://juanjo21-01.github.io/desarrollo-matematicas/)
+
 ## 🎓 Proyecto Final de Desarrollo Web
 
 Este proyecto fue realizado para el curso de Desarrollo Web de la Universidad Mariano Gálvez de Guatemala.
