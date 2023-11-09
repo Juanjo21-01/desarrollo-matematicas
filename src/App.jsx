@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import Navegacion from './components/Navegacion';
 import { Inicio, Multiplicacion, Sumas, Tablas } from './pages';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
+
+        {/* Pie de página */}
+        <Footer />
       </HashRouter>
     </>
   );
