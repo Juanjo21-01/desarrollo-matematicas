@@ -7,8 +7,8 @@ const Modales = () => {
   const nameModal3 = 'multiplicaciones';
 
   return (
-    <div className="row my-5 ">
-      <div className="col-12 d-flex justify-content-evenly mb-5 flex-wrap gap-2">
+    <article className="row my-5 ">
+      <section className="col-12 d-flex justify-content-evenly mb-5 flex-wrap gap-2">
         {/* Ventana Modal de las tablas de multiplicar*/}
         <button
           type="button"
@@ -68,8 +68,8 @@ const Modales = () => {
             className="img-fluid w-75"
           />
         </Modal>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 };
 
